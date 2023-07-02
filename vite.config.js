@@ -8,10 +8,10 @@ export default defineConfig({
   plugins: [vue(), svgLoader()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),
-      '@asset': resolve(__dirname, 'src/assets'),
-      '@component': resolve(__dirname, 'src/components'),
-      '@page': resolve(__dirname, 'src/pages'),
+      '@': resolve(__dirname, './src'),
+      '@asset': resolve(__dirname, './src/assets'),
+      '@component': resolve(__dirname, './src/components'),
+      '@page': resolve(__dirname, './src/pages'),
     }
   },
   define: {

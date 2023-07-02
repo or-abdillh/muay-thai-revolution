@@ -14,7 +14,7 @@
             <div class="md:w-8/12 mb-12 md:mb-0">
                 <h1 class="mb-6 md:mb-10 text-5xl md:text-7xl leading-snug md:leading-[1.25] text-slate-800 font-semibold">
                     Jelajahi
-                    Keajaiban <i class="fa-solid fa-dumbbell text-orange-700"></i>
+                    Keajaiban <i class="fa-solid fa-dumbbell text-orange-600"></i>
                     Keberanian, dan
                     Kekuatan Dalam
                     Beladiri
@@ -23,11 +23,22 @@
                     Thailand
                 </h1>
 
-                <!-- CTA -->
-                <button class="bg-orange-600 px-6 py-4 text-slate-200 font-medium uppercase rounded-full">
-                    <i class="fa-solid fa-users me-2"></i>
-                    Join Our Community
-                </button>
+                <div class="flex gap-5">
+                    <!-- CTA -->
+                    <button class="md:w-4/12 bg-orange-600 px-6 py-4 text-slate-200 font-medium uppercase rounded-full">
+                        <i class="fa-solid fa-users me-2"></i>
+                        Join Our Community
+                    </button>
+
+                    <!-- decorations -->
+                    <div class="flex justify-end md:w-3/12">
+                        <Direction class="fill-orange-600" />
+                        <Direction class="fill-orange-600" />
+                        <Direction class="fill-orange-600" />
+                        <Direction class="fill-orange-600" />
+                    </div>
+                </div>
+
             </div>
 
             <!-- illustration -->
@@ -50,5 +61,6 @@
 <script setup>
 
 import SectionCard from '@component/base/SectionCard.vue'
+import Direction from '@asset/svg/direction.svg'
 
 </script>
