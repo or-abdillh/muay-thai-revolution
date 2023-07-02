@@ -1,0 +1,30 @@
+<template>
+    <section class="flex flex-col md:flex-row md:gap-2 gap-4">
+        <template v-for="social in socials" :key="social">
+            <button
+                class="bg-slate-200 hover:bg-slate-300 duration-300 text-slate-800 h-12 md:w-12 px-5 md:p-0 rounded-full flex gap-2 items-center md:grid md:place-items-center">
+                <i :class="social?.icon"></i>
+                <p class="md:hidden">{{ social?.name }}</p>
+            </button>
+        </template>
+    </section>
+</template>
+
+<script setup>
+
+const socials = [
+    {
+        name: 'Instagram',
+        icon: 'fa-brands fa-instagram'
+    },
+    {
+        name: 'Twitter',
+        icon: 'fa-brands fa-twitter'
+    },
+    {
+        name: 'Facebook',
+        icon: 'fa-brands fa-facebook'
+    }
+]
+
+</script>
