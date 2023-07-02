@@ -1,6 +1,6 @@
 <template>
-    <nav class="w-full sticky top-0 px-4 pt-7 bg-slate-950">
-        <section class="bg-slate-100 rounded-full px-10 py-6 flex justify-between items-center">
+    <nav class="w-full sticky top-0 px-1 md:px-4 pt-7">
+        <section class="bg-slate-100 rounded-full px-10 py-6 flex justify-between items-center border duration-300">
             <!-- brand -->
             <h1 class="text-2xl md:text-3xl text-slate-800 tracking-wide">MuayThai Revolution</h1>
 
@@ -13,7 +13,7 @@
 
             <!-- nav wrapper -->
             <section :class="isSidebarOpen ? 'right-0' : '-right-full'"
-                class="fixed md:static duration-300 bg-slate-100 bottom-0 top-0 px-12 pt-14 md:p-0 md:w-7/12 flex md:flex-row flex-col md:justify-between gap-12 md:gap-0 md:items-center">
+                class="fixed md:static duration-300 bg-slate-100 md:bg-transparent bottom-0 top-0 px-12 pt-14 md:p-0 md:w-7/12 flex md:flex-row flex-col md:justify-between gap-12 md:gap-0 md:items-center">
                 <!-- nav items -->
                 <div class="flex md:flex-row flex-col text-right md:text-left gap-6">
                     <!-- nav closer -->

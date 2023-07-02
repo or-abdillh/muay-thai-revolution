@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{vue,js}'],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        '4xl': '2.5rem'
+      }
+    },
   },
   plugins: [],
 }

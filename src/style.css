@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 @layer base {
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong {
         font-family: 'Oswald', sans-serif;
     }
 
-    p, span, a, button, em, li, strong {
+    p,
+    span,
+    a,
+    button,
+    em,
+    li {
         font-family: 'Open Sans', sans-serif;
     }
 }
