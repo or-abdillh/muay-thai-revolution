@@ -1,6 +1,7 @@
 <template>
-    <nav class="w-full sticky top-0 px-1 md:px-4 pt-7">
-        <section class="bg-slate-100 rounded-full px-10 py-6 flex justify-between items-center border duration-300">
+    <nav style="z-index: 2;" class="w-full sticky top-0 px-1 md:px-4 pt-7">
+        <section
+            class="bg-slate-100 rounded-full px-10 py-6 flex justify-between items-center border border-slate-300 duration-300">
             <!-- brand -->
             <h1 class="text-2xl md:text-3xl text-slate-800 tracking-wide">MuayThai Revolution</h1>
 
