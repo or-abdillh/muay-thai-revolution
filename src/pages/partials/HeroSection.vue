@@ -32,7 +32,7 @@
 
             <!-- illustration -->
             <div class="md:w-4/12 grid place-items-center">
-                <img src="images/muay-thai-fighter.png" class="mb-8 border-8 border-slate-900 rounded-xl"
+                <img src="/images/muay-thai-fighter.png" class="mb-8 border-8 border-slate-900 rounded-xl"
                     alt="Muay Thai Fighter">
 
                 <p class="text-slate-600 text-sm">Bergabunglah dengan kami sekarang dan jadilah bagian dari perubahan besar
