@@ -25,8 +25,8 @@
                     </div>
                     <!-- items -->
                     <template v-for="nav in navs" :key="nav">
-                        <a :class="nav.name === isActiveNav ? 'text-slate-700 hover:text-slate-500 font-semibold' : 'text-slate-400 hover:text-slate-700'"
-                            class="text-xl" href="">{{ nav?.name }}</a>
+                        <button @click="scrollIntoSection(nav.name)" :class="nav.name === isActiveNav ? 'text-slate-700 hover:text-slate-500 font-semibold' : 'text-slate-400 hover:text-slate-700'"
+                            class="text-xl duration-300">{{ nav?.name }}</button>
                     </template>
                 </div>
 
@@ -47,14 +47,24 @@ import SocialsMedia from '@component/base/SocialsMedia.vue'
 
 const navs = [
     { name: 'Beranda' },
+    { name: 'Video' },
     { name: 'Sejarah' },
     { name: 'Atlet' },
     { name: 'Program' },
-    { name: 'Acara' },
 ]
 
 const isActiveNav = ref(navs[0].name)
 
 const isSidebarOpen = ref(false)
+
+const scrollIntoSection = section => {
+    document.getElementById(section?.toLowerCase())
+        .scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+    
+    isActiveNav.value = section
+} 
 
 </script>

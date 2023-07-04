@@ -1,12 +1,12 @@
 <template>
     <!-- landing page -->
-    <SectionCard class="bg-slate-100 rounded-4xl mb-5">
+    <SectionCard class="bg-slate-100 rounded-4xl mb-5" id="beranda">
         <!-- header -->
         <section class="flex flex-col md:flex-row gap-3 md:gap-5 md:items-center border-b border-slate-300 pb-5 mb-10">
             <i class="w-10 h-10 bg-slate-200 rounded-full grid place-items-center fa-solid fa-bullhorn"></i>
-            <p class="font-semibold text-xl md:text-2xl text-slate-800 uppercase">
-                Memajukan Beladiri Indonesia
+            <p class="font-semibold text-xl md:text-2xl text-slate-800 uppercase flex gap-4">
                 Menuju Keunggulan!
+                Memajukan Beladiri Indonesia <IndonesiaFlag class="w-8"></IndonesiaFlag>
             </p>
         </section>
 
@@ -26,10 +26,7 @@
 
                 <div class="flex gap-5">
                     <!-- CTA -->
-                    <button class="md:w-4/12 bg-orange-600 px-6 py-4 text-slate-200 font-medium uppercase rounded-full">
-                        <i class="fa-solid fa-users me-2"></i>
-                        Join Our Community
-                    </button>
+                    <PrimaryButton title="Join Our Community" icon="fa-solid fa-users"></PrimaryButton>
 
                     <!-- decorations -->
                     <div class="flex justify-end md:w-3/12">
@@ -50,8 +47,7 @@
                 <p class="text-slate-600 text-sm">Bergabunglah dengan kami sekarang dan jadilah bagian dari perubahan besar
                     ini.
                     <br><br>
-                    Mari kita bersama-sama
-                    merayakan semangat, ketekunan, dan prestasi yang mengguncang dunia Muay Thai
+                    Marilah kita bersama-sama mengangkat prestasi Muay Thai di Indonesia: Inspirasi semangat, ketekunan, dan prestasi yang memukau dunia Muay Thai.
                 </p>
             </div>
         </section>
@@ -63,5 +59,7 @@
 
 import SectionCard from '@component/base/SectionCard.vue'
 import Direction from '@asset/svg/direction.svg'
+import IndonesiaFlag from '@asset/svg/indonesia-flag.svg'
+import PrimaryButton from '@component/button/Primary.vue'
 
 </script>
