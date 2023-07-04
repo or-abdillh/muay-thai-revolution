@@ -57,17 +57,11 @@
         </section>
 
     </SectionCard>
-
-    <!-- information -->
-    <SectionCard class="mb-5">
-        <SectionTitle title="Muay Thai"></SectionTitle>
-    </SectionCard>
 </template>
 
 <script setup>
 
 import SectionCard from '@component/base/SectionCard.vue'
 import Direction from '@asset/svg/direction.svg'
-import SectionTitle from '@component/base/SectionTitle.vue'
 
 </script>
