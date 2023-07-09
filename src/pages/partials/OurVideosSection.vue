@@ -1,5 +1,5 @@
 <template>
-    <SectionCard class="mb-5" id="video">
+    <SectionCard class="mb-5" data-role="main-section" id="Video">
         <SectionTitle title="Our Videos" subtitle="Membangkitkan Semangat dan Meningkatkan Prestasi Muay Thai di Indonesia Melalui Video"></SectionTitle>
         
         <section class="flex flex-col md:flex-row justify-between items-center gap-6 mb-12 md:mb-16">

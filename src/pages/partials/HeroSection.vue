@@ -1,6 +1,6 @@
 <template>
     <!-- landing page -->
-    <SectionCard class="bg-slate-100 rounded-4xl mb-5" id="beranda">
+    <SectionCard class="bg-slate-100 rounded-4xl mb-5" data-role="main-section" id="Beranda">
         <!-- header -->
         <section class="flex flex-col md:flex-row gap-3 md:gap-5 md:items-center border-b border-slate-300 pb-5 mb-10">
             <i class="w-10 h-10 bg-slate-200 rounded-full grid place-items-center fa-solid fa-bullhorn"></i>

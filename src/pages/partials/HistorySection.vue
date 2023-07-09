@@ -1,6 +1,6 @@
 <template>
-    <SectionCard id="sejarah">
-        <SectionTitle title="Sejarah" subtitle="Sejarah dan Perkembangan Muay Thai: Dari Akar Thailand Hingga Menembus Indonesia"></SectionTitle>
+    <SectionCard data-role="main-section" id="Sejarah">
+        <SectionTitle title="The Histories" subtitle="Sejarah dan Perkembangan Muay Thai: Dari Akar Thailand Hingga Menembus Indonesia"></SectionTitle>
 
         <section class="mb-12 md:mb-16">
             <!-- copywriter -->
@@ -55,7 +55,8 @@
             <div class="text-center mb-2">
                 <i class="text-orange-600 text-5xl fa-solid fa-quote-left"></i>
             </div>
-            <h2 class="text-center text-3xl text-slate-300 tracking-wide">Melalui perjalanan sejarahnya dan masuknya ke Indonesia telah membentuk landasan penting bagi pengembangan seni bela diri ini. Melalui upaya terus-menerus dan semangat juang kita, Muay Thai terus berkembang dan menginspirasi di Indonesia.</h2>
+            <h2 class="text-center text-3xl text-slate-300 tracking-wide mb-3">Melalui perjalanan sejarahnya dan masuknya ke Indonesia telah membentuk landasan penting bagi pengembangan seni bela diri ini. Melalui upaya terus-menerus dan semangat juang kita, Muay Thai terus berkembang dan menginspirasi di Indonesia.</h2>
+            <p class="text-center italic text-slate-300">Anonymous</p>
         </section>
     </SectionCard>
 </template>

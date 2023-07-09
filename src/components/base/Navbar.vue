@@ -25,7 +25,7 @@
                     </div>
                     <!-- items -->
                     <template v-for="nav in navs" :key="nav">
-                        <button @click="scrollIntoSection(nav.name)" :class="nav.name === isActiveNav ? 'text-slate-700 hover:text-slate-500 font-semibold' : 'text-slate-400 hover:text-slate-700'"
+                        <button @click="scrollIntoSection(nav.name)" :class="nav.name === isActiveNav ? 'text-slate-700 hover:text-slate-400 font-semibold' : 'text-slate-400 hover:text-slate-700'"
                             class="text-xl duration-300">{{ nav?.name }}</button>
                     </template>
                 </div>
@@ -42,7 +42,7 @@
 
 <script setup>
 
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import SocialsMedia from '@component/base/SocialsMedia.vue'
 
 const navs = [
@@ -58,7 +58,7 @@ const isActiveNav = ref(navs[0].name)
 const isSidebarOpen = ref(false)
 
 const scrollIntoSection = section => {
-    document.getElementById(section?.toLowerCase())
+    document.getElementById(section)
         .scrollIntoView({
             behavior: 'smooth',
             block: 'start'
@@ -66,5 +66,24 @@ const scrollIntoSection = section => {
     
     isActiveNav.value = section
 } 
+
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll)
+})
+
+const handleScroll = () => {
+    const sections = document.querySelectorAll('[data-role=main-section]')
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        const scrollPosition = window.pageYOffset;
+
+        if ( scrollPosition >= sectionTop - sectionHeight / 3 && scrollPosition < sectionTop + sectionHeight ) {
+            // this.activeLink = section.id
+            isActiveNav.value = section?.id
+        }
+    })
+}
 
 </script>
