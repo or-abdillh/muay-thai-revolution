@@ -23,3 +23,9 @@
         font-family: 'Open Sans', sans-serif;
     }
 }
+
+@layer utilities {
+    .heading__sub {
+        @apply uppercase text-slate-200 text-3xl mb-8;
+    }
+}

@@ -22,7 +22,7 @@
 
         <!-- featured videos -->
         <section>
-            <h3 class="text-center uppercase text-slate-200 text-3xl mb-8">Our Featured Videos</h3>
+            <h3 class="heading__sub text-center">Our Featured Videos</h3>
 
             <!-- videos -->
             <div class="flex gap-5 flex-col md:flex-row">
