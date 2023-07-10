@@ -45,9 +45,15 @@
             <!-- histories -->
             <section class="columns-1 md:columns-3">
                 <template v-for="(history, index) in histories" :key="index">
-                    <HistoryCard :history="history" class="w-full break-inside-avoid mb-6"></HistoryCard>
+                    <HistoryCard :history="history" :expand="isExpanded" class="w-full break-inside-avoid mb-6"></HistoryCard>
                 </template>
             </section>
+
+            <!-- action -->
+            <button @click="isExpanded = !isExpanded" class="block mx-auto text-orange-600">
+                <p>{{ isExpanded ? 'Tutup' : 'Lihat semua' }}</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
         </section>
 
         <!-- quote -->
@@ -63,12 +69,13 @@
 
 <script setup>
 
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import SectionCard from '@component/base/SectionCard.vue'
 import SectionTitle from '@component/base/SectionTitle.vue'
 import HistoryCard from '@component/card/HistoryCard.vue'
 
 const isReadMore = ref(false)
+const isExpanded = ref(false)
 
 const histories = [
     {

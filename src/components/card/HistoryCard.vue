@@ -14,7 +14,7 @@
         <!-- body -->
         <div class="px-6 md:px-7">
             <!-- content -->
-            <div :class="{ 'h-0 overflow-hidden p-0': !isExpanded }" class="w-full bg-slate-200 rounded-b-xl p-3 duration-300 text-slate-700">
+            <div :class="{ 'h-0 overflow-hidden p-0': !isExpanded }" class="w-full bg-slate-200 rounded-b-xl p-3 hover:pt-8 duration-300 text-slate-700">
                 <p class="font-semibold text-xs mb-2">{{ props?.history?.sub }}</p>
                 <template v-for="(point, index) in props?.history?.points" :key="index">
                     <p class="border-b border-gray-300 pb-4 mb-4 text-sm">{{ point }}</p>
@@ -26,14 +26,21 @@
 
 <script setup>
 
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 const isExpanded = ref(false)
 
 const props = defineProps({
     history: {
         type: Object
+    },
+    expand: {
+        type: Boolean,
+        default: false
     }
 })
 
+watch(() => props?.expand, value => {
+    isExpanded.value = value
+})
 </script>

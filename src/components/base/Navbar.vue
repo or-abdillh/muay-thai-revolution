@@ -49,6 +49,7 @@ const navs = [
     { name: 'Beranda' },
     { name: 'Video' },
     { name: 'Sejarah' },
+    { name: 'Peraturan' },
     { name: 'Atlet' },
     { name: 'Program' },
 ]

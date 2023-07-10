@@ -3,6 +3,7 @@
         <HeroSection></HeroSection>
         <OurVideosSection></OurVideosSection>
         <HistorySection></HistorySection>
+        <RuleSection></RuleSection>
     </main>
 </template>
 
@@ -11,5 +12,6 @@
 import HeroSection from '@page/partials/HeroSection.vue'
 import OurVideosSection from '@/pages/partials/OurVideosSection.vue'
 import HistorySection from '@page/partials/HistorySection.vue'
+import RuleSection from '@page/partials/RuleSection.vue'
 
 </script>
