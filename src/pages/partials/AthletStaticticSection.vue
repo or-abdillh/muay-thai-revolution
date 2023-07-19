@@ -9,8 +9,11 @@
                     <i class="fa-solid fa-trophy me-2"></i>
                     Statistik Partisipasi dan Prestasi Atlet di Indonesia
                 </p>
-                <p class="text-lg text-slate-300">Mengungkap Kisah Gemilang dan Dedikasi Atlet Muay Thai Indonesia: Menelusuri Sejarah Partisipasi dalam Event Bergengsi dan Meraih Prestasi Gemilang di Tingkat Nasional dan Internasional</p>
+                <p class="text-lg text-slate-300 mb-8">Mengungkap Kisah Gemilang dan Dedikasi Atlet Muay Thai Indonesia: Menelusuri Sejarah Partisipasi dalam Event Bergengsi dan Meraih Prestasi Gemilang di Tingkat Nasional dan Internasional</p>
+
+                <Reaction></Reaction>
             </div>
+
             <!-- stats -->
             <div class="md:w-6/12">
                 <!-- bar -->
@@ -79,12 +82,13 @@
 <script setup>
 
 import { ref } from 'vue'
+import Reaction from '@component/Reaction.vue'
 
-const yearActive = ref('2021')
+const yearActive = ref('2022')
 
 const statistics = [
     {
-        year: 2021,
+        year: 2022,
         totalParticipants: 120,
         goldMedals: 10,
         silverMedals: 15,
@@ -107,7 +111,7 @@ const statistics = [
         ],
     },
     {
-        year: 2020,
+        year: 2021,
         totalParticipants: 100,
         goldMedals: 5,
         silverMedals: 10,
@@ -126,7 +130,7 @@ const statistics = [
         ],
     },
     {
-        year: 2019,
+        year: 2020,
         totalParticipants: 80,
         goldMedals: 7,
         silverMedals: 12,
@@ -141,7 +145,7 @@ const statistics = [
         ],
     },
     {
-        year: 2018,
+        year: 2019,
         totalParticipants: 90,
         goldMedals: 9,
         silverMedals: 14,
@@ -160,7 +164,7 @@ const statistics = [
         ],
     },
     {
-        year: 2017,
+        year: 2018,
         totalParticipants: 70,
         goldMedals: 6,
         silverMedals: 11,
@@ -175,7 +179,7 @@ const statistics = [
         ],
     },
     {
-        year: 2016,
+        year: 2017,
         totalParticipants: 60,
         goldMedals: 4,
         silverMedals: 8,
