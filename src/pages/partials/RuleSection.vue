@@ -1,6 +1,6 @@
 <template>
-    <SectionCard data-role="main-section" id="Peraturan">
-        <SectionTitle title="The Rules" subtitle="Mengenal Aspek Penting yang Membentuk Pertandingan Muay Thai"></SectionTitle>
+    <SectionCard data-role="main-section" id="Peraturan" class="mb-16">
+        <h3 class="heading__sub text-center">The Rules</h3>
 
         <!-- copywriter -->
         <p class="text-slate-300 text-xl md:text-center mb-8">Selamat datang di bagian yang akan mengungkapkan aturan dalam Muay Thai. Sebagai olahraga yang memiliki sejarah dan budaya yang kaya, Muay Thai memiliki tata cara dan etika yang dijunjung tinggi di dalam ring. Mari kita eksplorasi bersama untuk memahami aturan-aturan yang membentuk pertandingan Muay Thai.</p>

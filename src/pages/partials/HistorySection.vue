@@ -74,7 +74,7 @@ import SectionCard from '@component/base/SectionCard.vue'
 import SectionTitle from '@component/base/SectionTitle.vue'
 import HistoryCard from '@component/card/HistoryCard.vue'
 
-const isReadMore = ref(false)
+const isReadMore = ref(true)
 const isExpanded = ref(false)
 
 const histories = [
