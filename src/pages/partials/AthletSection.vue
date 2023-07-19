@@ -4,7 +4,7 @@
         
         <section>
             <AthletStaticticSection class="mb-24"></AthletStaticticSection>
-            <AthletProgramSection class="mb-24"></AthletProgramSection>
+            <AthletProgramSection></AthletProgramSection>
         </section>
     </SectionCard>
 </template>

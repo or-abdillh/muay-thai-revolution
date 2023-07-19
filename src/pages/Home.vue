@@ -5,6 +5,7 @@
         <HistorySection></HistorySection>
         <RuleSection></RuleSection>
         <AthletSection></AthletSection>
+        <OrganizationSection></OrganizationSection>
     </main>
 </template>
 
@@ -15,5 +16,6 @@ import OurVideosSection from '@/pages/partials/OurVideosSection.vue'
 import HistorySection from '@page/partials/HistorySection.vue'
 import RuleSection from '@page/partials/RuleSection.vue'
 import AthletSection from '@page/partials/AthletSection.vue'
+import OrganizationSection from '@page/partials/OrganizationSection.vue'
 
 </script>

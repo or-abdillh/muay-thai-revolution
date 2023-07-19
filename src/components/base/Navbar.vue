@@ -51,7 +51,7 @@ const navs = [
     { name: 'Sejarah' },
     { name: 'Peraturan' },
     { name: 'Atlet' },
-    { name: 'Program' },
+    { name: 'Organisasi' },
 ]
 
 const isActiveNav = ref(navs[0].name)

@@ -16,7 +16,6 @@
 
 <script setup>
 
-import SectionTitle from '@component/base/SectionTitle.vue'
 import SectionCard from '@component/base/SectionCard.vue'
 import RuleCard from '@component/card/RuleCard.vue'
 
