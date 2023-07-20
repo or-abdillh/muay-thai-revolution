@@ -4,12 +4,12 @@
         <div class="flex flex-col md:flex-row gap-6 justify-between items-center">
             <!-- copywriter -->
             <div class="md:w-5/12">
-                <p class="font-semibold text-3xl text-slate-200 mb-4">
+                <p data-aos="zoom-in-up" class="font-semibold text-3xl text-slate-200 mb-4">
                     <!-- icon -->
                     <i class="fa-solid text-orange-600 fa-trophy me-2"></i>
                     Statistik Partisipasi dan Prestasi Atlet di Indonesia
                 </p>
-                <p class="text-lg text-slate-300 mb-8">Mengungkap Kisah Gemilang dan Dedikasi Atlet Muay Thai Indonesia: Menelusuri Sejarah Partisipasi dalam Event Bergengsi dan Meraih Prestasi Gemilang di Tingkat Nasional dan Internasional</p>
+                <p data-aos="zoom-in-up" class="text-lg text-slate-300 mb-8">Mengungkap Kisah Gemilang dan Dedikasi Atlet Muay Thai Indonesia: Menelusuri Sejarah Partisipasi dalam Event Bergengsi dan Meraih Prestasi Gemilang di Tingkat Nasional dan Internasional</p>
 
                 <Reaction></Reaction>
             </div>
@@ -17,13 +17,13 @@
             <!-- stats -->
             <div class="md:w-6/12">
                 <!-- bar -->
-                <div class="flex flex-wrap md:flex-nowrap text-slate-300 mb-1">
+                <div data-aos="zoom-in-up" class="flex flex-wrap md:flex-nowrap text-slate-300 mb-1">
                     <template v-for="{ year } in statistics" :key="year">
                         <button @click="yearActive = year" :class="{'border-b border-slate-200 bg-orange-600': yearActive == year, 'bg-orange-950': yearActive != year}" class="px-9 py-2 duration-300 hover:bg-orange-900">{{ year }}</button>
                     </template>
                 </div>
                 <!-- lists -->
-                <div class="flex flex-wrap md:flex-nowrap gap-1 mb-6">
+                <div data-aos="zoom-in-up" class="flex flex-wrap md:flex-nowrap gap-1 mb-6">
                     <template v-for="stat in statistics" :key="stat">
                         <!-- participants -->
                         <div v-if="stat?.year == yearActive" class="bg-orange-600 text-slate-200 p-8 text-center text-sm flex-grow">
@@ -60,12 +60,12 @@
                 </div>
                 <!-- tournaments -->
                 <div>
-                    <p class="text-slate-300 mb-2">Turnamen Internasional</p>
+                    <p data-aos="zoom-in-up" class="text-slate-300 mb-2">Turnamen Internasional</p>
                     <div class="flex flex-col md:flex-row md:gap-3">
                         <template v-for="stat in statistics" :key="stat.internationalTournaments">
                             <template v-for="tournament in stat.internationalTournaments" :key="tournament">
                                 <div v-if="stat?.year == yearActive" class="mb-2">
-                                    <p class="text-slate-200 text-sm">
+                                    <p data-aos="zoom-in-up" class="text-slate-200 text-sm">
                                         <i class="fa-solid fa-medal me-2" :class="{ 'text-yellow-500': tournament?.medalType == 'gold', 'text-slate-500': tournament?.medalType == 'silver', 'text-orange-800': tournament?.medalType == 'bronze' }"></i>
                                         {{ tournament?.tournamentName }}
                                     </p>

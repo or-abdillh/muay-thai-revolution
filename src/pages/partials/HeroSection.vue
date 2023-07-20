@@ -3,7 +3,7 @@
     <section class="px-1 md:px-4">
         <SectionCard class="bg-slate-100 rounded-4xl mb-5" data-role="main-section" id="Beranda">
             <!-- header -->
-            <section class="flex flex-col md:flex-row gap-3 md:gap-5 md:items-center border-b border-slate-300 pb-5 mb-10">
+            <section class="animate__animated animate__headShake flex flex-col md:flex-row gap-3 md:gap-5 md:items-center border-b border-slate-300 pb-5 mb-10">
                 <i class="w-10 h-10 bg-slate-200 rounded-full grid place-items-center fa-solid fa-bullhorn"></i>
                 <p class="font-semibold text-xl md:text-2xl text-slate-800 uppercase flex gap-4">
                     Menuju Keunggulan!
@@ -14,7 +14,7 @@
             <section class="flex flex-col md:flex-row justify-between">
                 <!-- copywriter -->
                 <div class="md:w-8/12 mb-12 md:mb-0">
-                    <h1 class="mb-6 md:mb-16 text-5xl md:text-7xl leading-snug md:leading-[1.25] text-slate-800 font-semibold">
+                    <h1 class="animate__animated animate__jackInTheBox mb-6 md:mb-16 text-5xl md:text-7xl leading-snug md:leading-[1.25] text-slate-800 font-semibold">
                         Jelajahi
                         Keajaiban <i class="fa-solid fa-dumbbell text-orange-600"></i>
                         Keberanian, dan
@@ -25,7 +25,7 @@
                         Thailand
                     </h1>
     
-                    <div class="flex gap-5">
+                    <div class="animate__animated animate__bounceInUp flex gap-5">
                         <!-- CTA -->
                         <PrimaryButton title="Join Our Community" icon="fa-solid fa-users"></PrimaryButton>
     
@@ -43,9 +43,9 @@
                 <!-- illustration -->
                 <div class="md:w-4/12 grid place-items-center">
                     <img src="/images/muay-thai-fighter.png" style="z-index: 1;"
-                        class="rotate-[-4deg] mb-8 border-8 border-slate-900 rounded-xl" alt="Muay Thai Fighter">
+                        class="animate__animated animate__bounceInRight rotate-[-4deg] mb-8 border-8 border-slate-900 rounded-xl" alt="Muay Thai Fighter">
     
-                    <p class="text-slate-600 text-sm">Bergabunglah dengan kami sekarang dan jadilah bagian dari perubahan besar
+                    <p class="animate__animated animate__bounceInRight text-slate-600 text-sm">Bergabunglah dengan kami sekarang dan jadilah bagian dari perubahan besar
                         ini.
                         <br><br>
                         Marilah kita bersama-sama mengangkat prestasi Muay Thai di Indonesia: Inspirasi semangat, ketekunan, dan prestasi yang memukau dunia Muay Thai.
