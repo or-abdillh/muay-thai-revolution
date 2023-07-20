@@ -49,7 +49,7 @@
             <p class="font-semibold text-3xl text-slate-200 mb-4">
                 <!-- icon -->
                 Program Pengembangan Atlet untuk Indonesia
-                <i class="fa-solid fa-people-group me-2"></i>
+                <i class="fa-solid text-orange-600 fa-people-group me-2"></i>
             </p>
             <p class="text-lg text-slate-300 mb-8">Membangun Masa Depan Kejuaraan Muay Thai di Indonesia: Program Pelatihan dan Pengembangan Atlet Berbakat untuk Mewujudkan Generasi Unggul dan Berprestasi dalam Dunia Olahraga Bela Diri Terkenal ini</p>
 

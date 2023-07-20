@@ -12,7 +12,7 @@
         <section class="flex flex-wrap justify-center gap-3">
             <template v-for="(structure, x) in structures" :key="x">
                 <!-- profile -->
-                <div class="w-full md:w-auto px-6 py-4 rounded-xl bg-orange-600 hover:bg-orange-950 duration-300 border border-orange-900 mb-1 flex items-center md:justify-between gap-6">
+                <div class="w-full md:w-[28%] px-6 py-4 rounded-xl bg-orange-600 hover:bg-orange-950 duration-300 border border-orange-900 mb-1 flex flex-col md:flex-row text-center md:text-left items-center gap-6">
                     <!-- avatar -->
                     <div><img src="/images/avatar-1.jpg" class="w-16 h-16 rounded-full"></div>
                     <div>
@@ -20,7 +20,7 @@
                         <p class="text-slate-200 text-xl mb-3">{{ structure?.name }}</p>
 
                         <!-- socials -->
-                        <div class="flex gap-3 text-slate-300 text-sm">
+                        <div class="flex justify-center md:justify-start gap-3 text-slate-300 text-sm">
                             <i class="fa-brands fa-twitter"></i>
                             <i class="fa-brands fa-facebook"></i>
                             <i class="fa-brands fa-whatsapp"></i>
@@ -64,6 +64,14 @@ const structures = [
     {
         role: 'Wakil Bendahara Umum',
         name: 'Dewi Anggraeni'
+    },
+    {
+        role: 'Ketua Dewan Pembina',
+        name: 'Dra. Retno Wulandari'
+    },
+    {
+        role: 'Ketua Dewan Penasehat',
+        name: 'Dr. H. Ahmad Rahman'
     },
 ]
 

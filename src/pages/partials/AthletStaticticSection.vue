@@ -1,4 +1,4 @@
- <template>
+<template>
     <section>
         <!-- wrapper -->
         <div class="flex flex-col md:flex-row gap-6 justify-between items-center">
@@ -6,7 +6,7 @@
             <div class="md:w-5/12">
                 <p class="font-semibold text-3xl text-slate-200 mb-4">
                     <!-- icon -->
-                    <i class="fa-solid fa-trophy me-2"></i>
+                    <i class="fa-solid text-orange-600 fa-trophy me-2"></i>
                     Statistik Partisipasi dan Prestasi Atlet di Indonesia
                 </p>
                 <p class="text-lg text-slate-300 mb-8">Mengungkap Kisah Gemilang dan Dedikasi Atlet Muay Thai Indonesia: Menelusuri Sejarah Partisipasi dalam Event Bergengsi dan Meraih Prestasi Gemilang di Tingkat Nasional dan Internasional</p>
@@ -177,17 +177,7 @@ const statistics = [
                 medalType: "silver",
             },
         ],
-    },
-    {
-        year: 2017,
-        totalParticipants: 60,
-        goldMedals: 4,
-        silverMedals: 8,
-        bronzeMedals: 12,
-        totalMedals: 24,
-        nationalChampionship: true,
-        internationalTournaments: [],
-    },
+    }
 ]
 
 </script>
