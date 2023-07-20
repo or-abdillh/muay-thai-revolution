@@ -13,7 +13,7 @@
                 <template v-for="program in athleteDevelopmentPrograms" :key="program">
                     <div v-if="program?.year == yearActive" class="text-slate-200">
                         <!-- name -->
-                        <div class="mb-3 flex justify-between">
+                        <div class="mb-3 flex flex-col-reverse md:flex-row justify-between">
                             <div>
                                 <small class="font-semibold">Program</small>
                                 <p>{{ program?.programName }}</p>
