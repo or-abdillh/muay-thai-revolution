@@ -1,10 +1,10 @@
 <template>
-    <section class="flex flex-col md:flex-row md:gap-2 gap-4">
+    <section class="flex flex-col lg:flex-row lg:gap-2 gap-4">
         <template v-for="social in socials" :key="social">
             <button
-                class="bg-slate-200 hover:bg-slate-300 duration-300 text-slate-800 h-12 md:w-12 px-5 md:p-0 rounded-full flex gap-2 items-center md:grid md:place-items-center">
+                class="bg-slate-200 hover:bg-slate-300 duration-300 text-slate-800 h-12 lg:w-12 px-5 lg:p-0 rounded-full flex gap-2 items-center lg:grid lg:place-items-center">
                 <i :class="social?.icon"></i>
-                <p class="md:hidden">{{ social?.name }}</p>
+                <p class="lg:hidden">{{ social?.name }}</p>
             </button>
         </template>
     </section>
