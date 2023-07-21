@@ -28,7 +28,7 @@
 
 import { ref, watch } from 'vue'
 
-const isExpanded = ref(false)
+const isExpanded = ref(true)
 
 const props = defineProps({
     history: {

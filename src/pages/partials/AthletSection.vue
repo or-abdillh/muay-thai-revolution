@@ -4,7 +4,8 @@
         
         <section>
             <AthletStaticticSection class="mb-24"></AthletStaticticSection>
-            <AthletProgramSection></AthletProgramSection>
+            <AthletProgramSection class="mb-24"></AthletProgramSection>
+            <AthletStoriesSection></AthletStoriesSection>
         </section>
     </SectionCard>
 </template>
@@ -15,4 +16,5 @@ import SectionCard from '@component/base/SectionCard.vue'
 import SectionTitle from '@component/base/SectionTitle.vue'
 import AthletStaticticSection from '@page/partials/AthletStaticticSection.vue'
 import AthletProgramSection from '@page/partials/AthletProgramSection.vue'
+import AthletStoriesSection from '@page/partials/AthletStoriesSection.vue'
 </script>
