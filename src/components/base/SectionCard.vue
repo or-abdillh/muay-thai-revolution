@@ -1,5 +1,5 @@
 <template>
-    <section :class="{ 'px-8 md:px-12': props?.useHorizontalPadding, 'py-6 md:py-10': props?.useVerticalPadding }" class="w-full">
+    <section :class="{ 'px-5 md:px-12': props?.useHorizontalPadding, 'py-3 md:py-10': props?.useVerticalPadding }" class="w-full">
         <slot />
     </section>
 </template>

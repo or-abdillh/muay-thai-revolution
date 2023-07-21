@@ -1,6 +1,6 @@
 <template>
     <!-- landing page -->
-    <section class="px-1 md:px-4">
+    <section class="px-2 md:px-4">
         <SectionCard class="bg-slate-100 rounded-4xl mb-5" data-role="main-section" id="Beranda">
             <!-- header -->
             <section class="animate__animated animate__headShake flex flex-col md:flex-row gap-3 md:gap-5 md:items-center border-b border-slate-300 pb-5 mb-10">
@@ -43,9 +43,9 @@
                 <!-- illustration -->
                 <div class="md:w-4/12 grid place-items-center">
                     <img src="/images/muay-thai-fighter.png" style="z-index: 1;"
-                        class="animate__animated animate__bounceInRight rotate-[-4deg] mb-8 border-8 border-slate-900 rounded-xl" alt="Muay Thai Fighter">
+                        class="animate__animated animate__bounceInUp rotate-[-4deg] mb-8 border-8 border-slate-900 rounded-xl" alt="Muay Thai Fighter">
     
-                    <p class="animate__animated animate__bounceInRight text-slate-600 text-sm">Bergabunglah dengan kami sekarang dan jadilah bagian dari perubahan besar
+                    <p class="animate__animated animate__bounceInUp text-slate-600 text-sm">Bergabunglah dengan kami sekarang dan jadilah bagian dari perubahan besar
                         ini.
                         <br><br>
                         Marilah kita bersama-sama mengangkat prestasi Muay Thai di Indonesia: Inspirasi semangat, ketekunan, dan prestasi yang memukau dunia Muay Thai.

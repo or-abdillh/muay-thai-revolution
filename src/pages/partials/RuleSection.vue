@@ -1,5 +1,5 @@
 <template>
-    <SectionCard data-role="main-section" id="Peraturan" class="mb-16">
+    <SectionCard class="mb-16">
         <h3 data-aos="zoom-in-up" class="heading__sub text-center">The Rules</h3>
 
         <!-- copywriter -->

@@ -1,9 +1,9 @@
 <template>
     <SectionCard class="bg-orange-950 rounded-xl flex flex-col md:flex-row justify-between gap-3">
         <!-- copywriter -->
-        <section class="md:w-3/12">
-            <h1 data-aos="zoom-in-up" class="text-slate-300 text-4xl mb-6">Kisah Inspiratif Para Atlet Nasional Indonesia</h1>
-            <p data-aos="zoom-in-up" class="text-slate-300">Di Balik Prestasi Gemilang: Perjalanan Perjuangan dan Keberhasilan Mereka</p>
+        <section class="md:w-3/12 p-4">
+            <h1 data-aos="zoom-in-up" class="text-slate-300 text-5xl mb-8 leading-tight">Kisah Inspiratif Para Atlet Nasional Indonesia</h1>
+            <p data-aos="zoom-in-up" class="text-slate-300 text-xl">Di Balik Prestasi Gemilang: Perjalanan Perjuangan dan Keberhasilan Mereka</p>
         </section>
 
         <!-- stories -->
@@ -12,12 +12,16 @@
                 <div data-aos="zoom-in-up" class="bg-slate-300 px-8 py-6 rounded-xl mb-6">
                     <!-- icon -->
                     <i data-aos="zoom-in-up" class="fa-solid fa-quote-left text-orange-600 text-5xl mb-3"></i>
-                    <!-- content -->
-                    <p data-aos="zoom-in-up" class="text-base text-slate-700 mb-6">{{ story?.content }}</p>
+                    
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-2 md:mb-0">
+                        <!-- content -->
+                        <p data-aos="zoom-in-up" class="md:w-9/12 text-base text-slate-700 mb-6">{{ story?.content }}</p>
+                        <!-- avatar -->
+                        <div class="md:w-2/12 w-4/12"><img src="/images/avatar-1.jpg" class="w-full rounded-full"></div>
+                    </div>
+
                     <!-- athlet -->
                     <div data-aos="zoom-in-up" class="flex gap-5 items-center">
-                        <!-- avatar -->
-                        <div class="w-4/12 md:w-auto"><img src="/images/avatar-1.jpg" class="w-10 h-10 rounded-full"></div>
                         <!-- name and achievment -->
                         <div>
                             <p class="font-bold text-slate-800">{{ story?.name }}</p>
@@ -27,6 +31,7 @@
                 </div>
             </template>
         </section>
+
     </SectionCard>
 </template>
 

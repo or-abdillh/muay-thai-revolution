@@ -3,11 +3,11 @@
         <!-- brand -->
         <section>
             <h1 class="text-2xl text-slate-800">MuayThai Revolution</h1>
-            <small>All Rights Reserved &copy; 2023</small>
+            <small>All rights reserved.</small>
         </section>
         <!-- others -->
         <section class="text-center">
-            <p class="text-sm text-slate-700">Made with <i class="fa-solid fa-heart"></i> and a cup of a <i class="fa-solid fa-coffee"></i> by <a class="font-semibold" href="https://or-abdillh.vercel.app">Oka R. Abdillah</a></p>
+            <p class="text-slate-600">&copy; 2023 <span class="font-semibold text-slate-800">Oka Rajeb Abdillah.</span> Powered by Politeknik Hasnur</p>
         </section>
     </footer>
 </template>
