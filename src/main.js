@@ -8,7 +8,6 @@ import AOS from 'aos'
 
 // styles
 import '@/style.css'
-import '@splidejs/vue-splide/css'
 import 'aos/dist/aos.css'
 import 'animate.css'
 
