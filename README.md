@@ -17,15 +17,15 @@ Selamat datang di Muay Thai Revolution! Ini adalah dokumentasi untuk menginstal 
 3. Buka terminal atau command prompt, lalu navigasi ke direktori proyek Muay Thai Revolution.
 
 4. Instal semua dependensi dengan menjalankan perintah berikut:
-   ```
-   npm install
-   ```
+```
+npm install
+```
 
 ### Menjalankan Proyek
 
 Setelah menginstal, Anda dapat menjalankan proyek dengan perintah berikut:
 ```
-npm run serve
+npm run dev
 ```
 
 Proyek akan dijalankan pada server pengembangan dan dapat diakses melalui browser dengan alamat `http://localhost:5173/` atau alamat lainnya yang ditampilkan pada terminal.
